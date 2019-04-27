@@ -7,7 +7,7 @@
 //
 
 #import "MTViewController.h"
-#import "MTMJRefresh.h"
+#import <MTMJRefresh/MTMJRefresh.h>
 
 @interface MTViewController ()
 

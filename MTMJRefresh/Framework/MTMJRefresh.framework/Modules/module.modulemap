@@ -1,0 +1,6 @@
+framework module MTMJRefresh {
+  umbrella header "MTMJRefresh.h"
+
+  export *
+  module * { export * }
+}
