@@ -1,5 +1,5 @@
 PODS:
-  - MTMJRefresh (0.1.2)
+  - MTMJRefresh (0.1.3)
 
 DEPENDENCIES:
   - MTMJRefresh (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTMJRefresh: a0d98724f15be80f6ad344fba3f20b9c136610ed
+  MTMJRefresh: 1d7c3bc8ab7182de37bed40b7eec46d098a8f397
 
 PODFILE CHECKSUM: 11511bb0ebf9405371c8c79c83107143ade9f4d4
 
