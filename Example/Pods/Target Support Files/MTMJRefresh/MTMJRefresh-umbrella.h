@@ -20,6 +20,7 @@
 #import "MJRefreshBackNormalFooter.h"
 #import "MJRefreshBackStateFooter.h"
 #import "MJRefreshComponent.h"
+#import "MJRefreshConfig.h"
 #import "MJRefreshConst.h"
 #import "MJRefreshFooter.h"
 #import "MJRefreshGifHeader.h"
