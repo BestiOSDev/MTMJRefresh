@@ -60,7 +60,7 @@
     // 箭头的中心点
     CGFloat arrowCenterX = self.mj_w * 0.5;
     if (!self.stateLabel.hidden) {
-        arrowCenterX -= self.labelLeftInset + self.stateLabel.mj_textWith * 0.5;
+        arrowCenterX -= self.labelLeftInset + self.stateLabel.mj_textWidth * 0.5;
     }
     CGFloat arrowCenterY = self.mj_h * 0.5;
     CGPoint arrowCenter = CGPointMake(arrowCenterX, arrowCenterY);
@@ -91,7 +91,7 @@
                 self.loadingView.alpha = 0.0;
             } completion:^(BOOL finished) {
                 // 防止动画结束后，状态已经不是MJRefreshStateIdle
-                if (state != MJRefreshStateIdle) return;
+                if (self.state != MJRefreshStateIdle) return;
                 
                 self.loadingView.alpha = 1.0;
                 [self.loadingView stopAnimating];
