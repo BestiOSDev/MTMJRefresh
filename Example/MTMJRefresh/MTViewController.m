@@ -10,6 +10,7 @@
 #import <MTMJRefresh/MTMJRefresh.h>
 
 @interface MTViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -19,7 +20,11 @@
 {
     [super viewDidLoad];
     
-    [MJRefreshHeader headerWithRefreshingBlock:^{
+    self.tableView.mj_header =  [MJRefreshHeader headerWithRefreshingBlock:^{
+        
+    }];
+    
+    self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         
     }];
 

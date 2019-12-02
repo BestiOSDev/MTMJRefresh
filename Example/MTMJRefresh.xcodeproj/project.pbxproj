@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				124F3BDB940D9DA5CB659B77 /* [CP] Copy Pods Resources */,
+				2B3F8E39C65CEEABBCF374EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,22 +294,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		124F3BDB940D9DA5CB659B77 /* [CP] Copy Pods Resources */ = {
+		2B3F8E39C65CEEABBCF374EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MTMJRefresh_Example/Pods-MTMJRefresh_Example-resources.sh",
-				"${PODS_ROOT}/../../MTMJRefresh/Resource/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MTMJRefresh_Example/Pods-MTMJRefresh_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MTMJRefresh/MTMJRefresh.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTMJRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTMJRefresh_Example/Pods-MTMJRefresh_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTMJRefresh_Example/Pods-MTMJRefresh_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB28D932A6B4797964194F93 /* [CP] Check Pods Manifest.lock */ = {
